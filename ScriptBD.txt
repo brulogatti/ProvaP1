@@ -1,0 +1,15 @@
+/****** CRIAR BD CHAMADO Prova ******/
+/****** TIPO ******/
+USE [Prova]
+GO
+
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[Figurinha](
+[id] [int] primary key IDENTITY(1,1) NOT NULL,
+[descricao] [varchar](50) NULL,
+[ano] [int] NULL)
